@@ -32,26 +32,23 @@ RegisterNumber: 212225040259
 ```
 
 ## Output:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c908320-d433-4214-ad3c-fad8a94f614d" />
 
-1.
-'''Program to find L and U matrix using LU decomposition.
-Developed by: Moogethshivan G G 
-RegisterNumber: 212225040259
-'''
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee5d014c-8f88-4ae8-b43b-31db44607560" />
+
+
+# To print X matrix (solution to the equations)
 import os
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 import numpy as np
 import scipy.linalg
-A = np.array(eval(input()), dtype=float)
-P, L, U = scipy.linalg.lu(A)
-print(L)
-print(U)
 
-2
-'''Program to solve a matrix using LU decomposition.
-Developed by: 
-RegisterNumber: 
-'''
+A = np.array(eval(input()),dtype=float)
+b = np.array(eval(input()),dtype=float)
+
+lu,piv=scipy.linalg.lu_factor(A)
+x=scipy.linalg.lu_solve((lu,piv),b)
+print(x)
 
 # To print X matrix (solution to the equations)
 import os
