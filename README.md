@@ -32,7 +32,7 @@ RegisterNumber: 212225040259
 ```
 
 ## Output:
-![lu decomposition]()
+
 1.
 '''Program to find L and U matrix using LU decomposition.
 Developed by: Moogethshivan G G 
