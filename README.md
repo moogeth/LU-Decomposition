@@ -36,6 +36,7 @@ RegisterNumber: 212225040259
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/966d9a2d-7731-4988-ba23-411dc3df6a54" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee5d014c-8f88-4ae8-b43b-31db44607560" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49ea5a8d-4c3c-4704-b4e7-6dea43f11aa7" />
 
 
 # To print X matrix (solution to the equations)
